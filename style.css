@@ -1,6 +1,8 @@
 @font-face {
-    font-family: 'Aurebesh';
-    src: url('aurebesh_af/AurebeshAF-LegendsTech.otf');
+    font-family: 'mononoki';
+/*    src: url('aurebesh_af/AurebeshAF-LegendsTech.otf');*/
+    src: url('mononoki-Regular Nerd Font Complete.ttf');
+/*    src: url('Iosevka Nerd Font Complete.ttf');*/
 }
 
 body
@@ -54,7 +56,7 @@ li
 
 *
 {
-    font-family: /*'Aurebesh',*/ 'Comic Sans MS', "Comic Sans", sans-serif;
+    font-family: 'mononoki', 'Comic Sans MS', "Comic Sans", sans-serif;
 }
 
 #conteneur
