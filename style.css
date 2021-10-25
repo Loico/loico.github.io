@@ -1,13 +1,11 @@
 @font-face {
-    font-family: 'mononoki';
-/*    src: url('aurebesh_af/AurebeshAF-LegendsTech.otf');*/
-    src: url('mononoki-Regular Nerd Font Complete.ttf');
-/*    src: url('Iosevka Nerd Font Complete.ttf');*/
+    font-family: 'iosevka';
+    src: url('Iosevka Nerd Font Complete.ttf');
 }
 
 body
 {
-    background-color: #f5f5f5;
+    background-color: #ffffff; /*#f5f5f5;*/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -46,7 +44,7 @@ h5
 p
 {
     color: #456a8d;
-    text-align: justify;
+    /*text-align: justify;*/
 }
 
 li
@@ -56,7 +54,12 @@ li
 
 *
 {
-    font-family: 'mononoki', 'Comic Sans MS', "Comic Sans", sans-serif;
+    font-family: 'iosevka', sans-serif;
+}
+
+.white
+{
+    color: #e8dfd6;
 }
 
 #conteneur
@@ -70,10 +73,13 @@ li
 {
     flex: 1;
     padding: 32px;
+    color: #e8dfd6;
+    background-color: #032c36; /*#065f73;*/
 }
 
 .element:nth-child(2)
 {
     flex: 2;
     padding: 32px;
+    background-color: #f5f5f5;
 }
