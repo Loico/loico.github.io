@@ -28,23 +28,25 @@ h2
 
 h3
 {
+    font-weight: bold;
     color: #62d2ce;
 }
 
 h4
 {
+    font-weight: bold;
     color: #456a8d;
 }
 
 h5
 {
-    color: #62d2ce;
+    color: #456a8d;
+    /*color: #62d2ce;*/
 }
 
 p
 {
     color: #456a8d;
-    /*text-align: justify;*/
 }
 
 li
@@ -62,11 +64,17 @@ li
     color: #e8dfd6;
 }
 
+span.duration {
+    color: #62d2ce;
+    float: right;
+}
+
 #conteneur
 {
     display: flex;
     justify-content: space-between;
-    max-width: 946px;
+    max-width: 816px;
+    /*max-width: 946px;*/
 }
 
 .element:nth-child(1)
