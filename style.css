@@ -19,17 +19,20 @@ header
 h1
 {
     color: #62d2ce;
+    text-align: start;
 }
 
 h2
 {
     color: #62d2ce;
+    text-align: start;
 }
 
 h3
 {
     font-weight: bold;
     color: #62d2ce;
+    text-align: start;
 }
 
 h4
@@ -47,11 +50,13 @@ h5
 p
 {
     color: #456a8d;
+    text-align: start;
 }
 
 li
 {
     color: #456a8d;
+    text-align: start;
 }
 
 *
@@ -62,6 +67,12 @@ li
 .white
 {
     color: #e8dfd6;
+}
+
+.pp {
+    height: 12rem;
+    border-radius: 100%;
+    text-align: center;
 }
 
 span.duration {
@@ -83,6 +94,7 @@ span.duration {
     padding: 32px;
     color: #e8dfd6;
     background-color: #032c36; /*#065f73;*/
+    text-align: center;
 }
 
 .element:nth-child(2)
